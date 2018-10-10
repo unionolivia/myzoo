@@ -1,0 +1,76 @@
+/* 
+    Created on : Oct 11, 2017, 11:04:34 PM
+    Author     : union
+*/
+
+/* For sticky footers */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+/* Search Result    */
+.searchres
+{
+    margin-left:0px;
+    width:410px;
+    /*height: 20px;*/
+    border: #f0f0f0 0px solid;  
+    position: sticky; 
+    z-index: 999; 
+    /*background:#ccc;*/
+}
+.no_data{
+    height: 40px;
+    background-color: #F0F0F0;
+    padding: 10px 0px 0px 10px;
+    width: 410px;
+    color:black; 
+    font-size: 10px;
+}
+.name{
+    margin-top: 14px;
+}
+.descp
+{
+    margin:0 0 0 50px;
+    font-size:10px
+}
+.user_div{
+    clear:both;
+    border-top: #f0f0f0 1px solid;
+    color:black; 
+    font-size: 10px;
+    height:40px;
+    margin:1px;
+    padding:10px;
+    width:410px;
+    /*border-radius:4px;*/
+    vertical-align: top;  
+}
+.user_div:hover
+{
+    background:#00AFF0;
+    color:#fff;
+    cursor:pointer
+}
+a:link
+{
+    text-decoration:none;
+}
+a:visited 
+{
+    text-decoration:none;
+}
+a:hover 
+{
+    text-decoration:none;
+}
+a:active 
+{
+    text-decoration:none;
+}
